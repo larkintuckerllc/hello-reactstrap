@@ -1,0 +1,26 @@
+@import '../../_colors.scss';
+#root {
+  display: block;
+}
+#rootBanner {
+  padding: 10px;
+  background-color: $primary-dark-color;
+  color: $primary-text-color;
+}
+#rootHero {
+  padding: 10px;
+  background-color: $primary-color;
+  color: $primary-text-color;
+}
+#rootTabs {
+  padding: 10px;
+  background-color: $primary-light-color;
+  color: $primary-text-color;
+}
+#rootBody {
+  padding: 10px;
+}
+#rootBodyCard {
+  padding: 10px;
+  background-color: $cards-dialogs-color;
+}

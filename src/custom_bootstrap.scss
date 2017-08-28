@@ -1,0 +1,6 @@
+@import './_colors.scss';
+$brand-primary: $primary-color;
+$brand-danger: $error_color;
+$body-bg: $background-color;
+
+@import '~bootstrap/scss/bootstrap.scss';
