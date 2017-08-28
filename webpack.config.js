@@ -65,13 +65,13 @@ module.exports = env => ({
               options: {
                 modules: false,
                 importLoaders: 1,
-                sourceMap: false,
+                sourceMap: true,
               },
             },
             {
               loader: 'sass-loader',
               options: {
-                sourceMap: false,
+                sourceMap: true,
               },
             },
           ],
