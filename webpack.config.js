@@ -5,7 +5,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-const BablePluginTransformObjectRestSpread = require('babel-plugin-transform-object-rest-spread');
 
 module.exports = env => ({
   resolve: {
@@ -27,7 +26,7 @@ module.exports = env => ({
         loader: 'babel-loader',
         options: {
           presets: ['es2015', 'react'],
-          plugins: ['syntax-dynamic-import', BablePluginTransformObjectRestSpread],
+          plugins: ['syntax-dynamic-import'],
         },
       },
       {
